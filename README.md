@@ -40,7 +40,7 @@ MakeTable(NumberOfRows, NumberOfColumns, string array of headings, string array 
  var headings = ["Roll Number","Name","Marks"];
  var TValues = ["1", "Abhjit", "67", "2", "Abhinav", "56", "3", "Aditya", "87", "4", "Abhishek Maurya", "100", "5", "Abhi", "90"];
  
- $('#div1').MakeTable(5, 3, headings, TValues);
+ $('#DisplayDiv').MakeTable(5, 3, headings, TValues);
 ```
 
 This displays our table properly and in a well designed manner.
