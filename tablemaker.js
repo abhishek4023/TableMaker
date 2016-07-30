@@ -1,8 +1,8 @@
- (function ($) {
- $.fn.MakeTable = function (tableRow, tableColumn, tableColumnHeadings, tableValues) {
+(function ($) {
+    $.fn.MakeTable = function (tableRow, tableColumn, tableColumnHeadings, tableValues) {
         return this.each(function () {
             var tableHtmlString = '<div><table class="table table-condensed table-bordered table-hover table-responsive text-center">'
-                               + '<thead><tr class="bg-primary">';
+                + '<thead><tr class="bg-primary">';
             for (var i = 0; i < tableColumn; i++) {
                 tableHtmlString += '<th class="text-center">' + tableColumnHeadings[i] + '</th>';
             }
@@ -17,5 +17,5 @@
             tableHtmlString += ' </tbody></table></div>';
             return $(this).append(tableHtmlString)
         });
- };
- }(jQuery));
+    };
+} (jQuery));
