@@ -22,8 +22,10 @@ Must include:
 
 You can use the following CDN
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+//Here include this file tablemaker.js
+//Include it only below the jquery inclusion.
 ```
 
 #Example
@@ -39,6 +41,10 @@ In the code below the arguments are passed in the following order:
 MakeTable(NumberOfRows, NumberOfColumns, string array of headings, string array of row wise values)
 
 ```javascript
+//Number of rows are 5 and columns are 3
+//Here we are taking 3 headings which we want to be displayed at the top of table
+//We pass a var with array of the table values in a rowwise manner. Here it is Tvalues.
+
  var headings = ["Roll Number","Name","Marks"];
  var TValues = ["1", "Akanksha Seth", "99", "2", "Abhishek Maurya", "87", "3", "Aditya Kumar", "87", "4", "Abhinav Singh", "100", "5", "Birendra Yadav", "90"];
  
