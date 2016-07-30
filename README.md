@@ -45,7 +45,10 @@ MakeTable(NumberOfRows, NumberOfColumns, string array of headings, string array 
 
 This displays our table properly and in a well designed manner.
 
+
+<div>
 Better and more customizable options will also be provided in future. You can also contribute to this project via this repository.
+</div>
 
 
 
