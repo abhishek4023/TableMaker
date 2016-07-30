@@ -6,17 +6,17 @@ Get your tables designed automatically using this Jquery plugin. Note: Include B
 
 U need to simply include this document and then just send the sample data while calling the MakeTable() function. It can be atached to any div and it supports chaining.
 
-MakeTable takes 4 arguments:<br/>
--Number of TableRows<br/>
--Number of TableColumns<br/>
--Array of Column headings<br/>
--Array of table data<br/>
+MakeTable takes 4 arguments:
+*Number of TableRows
+*Number of TableColumns
+*Array of Column headings
+*Array of table data
 
 #Note :
 
-Must include:<br/>
--Bootstrap 3.x<br/>
--jquery 3.x
+Must include:
+*Bootstrap 3.x
+*jquery 3.x
 
 You can use the following CDN
 ```html
