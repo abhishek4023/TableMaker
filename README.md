@@ -38,7 +38,7 @@ MakeTable(NumberOfRows, NumberOfColumns, string array of headings, string array 
 
 ```javascript
  var headings = ["Roll Number","Name","Marks"];
- var TValues = ["1", "Abhjit", "67", "2", "Abhinav", "56", "3", "Aditya", "87", "4", "Abhishek Maurya", "100", "5", "Abhi", "90"];
+ var TValues = ["1", "Akanksha Seth", "99", "2", "Abhishek Maurya", "87", "3", "Aditya Kumar", "87", "4", "Abhinav Singh", "100", "5", "Birendra Yadav", "90"];
  
  $('#DisplayDiv').MakeTable(5, 3, headings, TValues);
 ```
